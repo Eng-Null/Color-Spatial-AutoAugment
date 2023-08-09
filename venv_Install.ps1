@@ -10,11 +10,11 @@ python.exe -m pip install --upgrade pip
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 # Install packages
+pip install torchsummary
 pip install tqdm
 pip install scipy
 pip install -U scikit-learn
 pip install seaborn
-
 pip install tensorboard
 
 # Deactivate virtual environment
