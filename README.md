@@ -24,13 +24,18 @@ Or run ```venv_Install.ps1``` to create the `venv` and install the required pack
 * `--augment` have two options `AutoAugment` to train using *AutoAugment* and `Augment` to run using *Color-Spatial AutoAugment*.
 * `--dataset` either `cifar10` , `cifar10_reduced` or`cifar100`.
 * `--network` either `resnet18` , `resnet50` and `wideresnet` for WideResNet28-10
-after running the required epochs run `main_linear.py` to run the learner classifier.
+
+After running the required epochs, run `main_linear.py` for the learner classifier.
+
+and example of training using Color-Spatial AutoAugment with backbone ResNet50 for 1000 epochs
 
 ```
 python main.py --augment Augment --dataset cifar10 --network resnet50 --epochs 1000 --batch_size 64
 ```
 
-*The table shows the accuracy of both AutoAugment and Color-Spatial AutoAugment on the different networks, as for the ResNet50 we Show the accuracy for both 300 epochs and 1000.*
+***Important Note:** All tests were done on batch size 64 due to memory restrictions on the testing setup.
+
+*The table shows the accuracy of both AutoAugment and Color-Spatial AutoAugment on the different networks; for the ResNet50, we Show the accuracy for both 300 epochs and 1000.*
 
 | **Epochs** | **Network**       | **AA** | **CS\-AA** |
 |------------|-------------------|--------|------------|
