@@ -1,0 +1,6 @@
+torch
+tqdm
+scipy
+scikit-learn
+seaborn
+tensorboard
