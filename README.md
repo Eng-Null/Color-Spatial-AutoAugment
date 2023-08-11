@@ -9,6 +9,7 @@ The Implementation used to test Color-Spatial AutoAugment in "Color-Spatial Auto
 * scikit-learn
 * seaborn
 * tensorboard
+
 install the required packages using 
 
 ```
@@ -25,7 +26,9 @@ Or run ```venv_Install.ps1``` to create the `venv` and install the required pack
 * `--network` either `resnet18` , `resnet50` and `wideresnet` for WideResNet28-10
 after running the required epochs run `main_linear.py` to run the learner classifier.
 
-```python main.py --augment Augment --dataset cifar10 --network resnet50 --epochs 1000 --batch_size 64```
+```
+python main.py --augment Augment --dataset cifar10 --network resnet50 --epochs 1000 --batch_size 64
+```
 
 *The table shows the accuracy of both AutoAugment and Color-Spatial AutoAugment on the different networks, as for the ResNet50 we Show the accuracy for both 300 epochs and 1000.*
 
