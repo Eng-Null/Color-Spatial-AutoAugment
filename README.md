@@ -33,7 +33,7 @@ and example of training using Color-Spatial AutoAugment with backbone ResNet50 f
 python main.py --augment Augment --dataset cifar10 --network resnet50 --epochs 1000 --batch_size 64
 ```
 
-***Important Note:** All tests were done on batch size 64 due to memory restrictions on the testing setup.
+* **Important Note:** All tests were done on batch size 64 due to memory restrictions on the testing setup.
 
 *The table shows the accuracy of both AutoAugment and Color-Spatial AutoAugment on the different networks; for the ResNet50, we Show the accuracy for both 300 epochs and 1000.*
 
