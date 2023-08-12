@@ -35,7 +35,7 @@ python main.py --augment Augment --dataset cifar10 --network resnet50 --epochs 1
 
 * **Important Note:** All tests were done on batch size 64 due to memory restrictions on the testing setup.
 
-*The table shows the accuracy of both AutoAugment and Color-Spatial AutoAugment on the different networks; for the ResNet50, we Show the accuracy for both 300 epochs and 1000.*
+*The table shows the accuracy of Cifar-10 with both AutoAugment and Color-Spatial AutoAugment on the different networks; for the ResNet50, we Show the accuracy for both 300 epochs and 1000.*
 
 | **Epochs** | **Network**       | **AA** | **CS\-AA** |
 |------------|-------------------|--------|------------|
