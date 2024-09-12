@@ -1,7 +1,7 @@
 # Color-Spatial-AutoAugment
 The Implementation used to test Color-Spatial AutoAugment in "Color-Spatial AutoAugment Another Approach To AutoAugment Policies Found &amp; Implementation".
 
-Pretrained Models and there TensorBoard can be found [Here](https://drive.google.com/drive/folders/1-0jRnV04WfVQ9Qz-ZN_aOPneiljq6UW7?usp=sharing).
+Pretrained Models and their TensorBoard can be found [Here](https://drive.google.com/drive/folders/1-0jRnV04WfVQ9Qz-ZN_aOPneiljq6UW7?usp=sharing).
 
 **Required Packages**
 * Torch Package.
